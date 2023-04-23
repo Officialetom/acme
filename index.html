@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <script src="./javascript/home.js" defer></script>
+    <script src="./OwlCarousel2-2.3.4/dist/jquery.min.js"></script>
+    <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <title>ACME</title>
+</head>
+<body>
+    <!-- Navbar Starts here -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="nav-item">
+                <img src="./images/logo.png" alt="">
+            </div>
+            <i class="toggle-btn" id="toggle-btn">
+                <span class="btn" id="btn"></span>
+                <span class="btn" id="btn"></span>
+                <span class="btn" id="btn"></span>
+            </i>
+            <div class="nav-links" id="nav-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Blog</a>
+                <a href="#">FAQ</a>
+                <a href="#" class="join">Join</a>
+                <a href="#" class="close" id="close">Close</a>
+            </div>
+        </div>
+    </nav>
+    <!-- banner starts here -->
+    <div class="banner">
+        <div class="banner-container">
+            <div class="banner-item">
+                <h1>Welcome to <br> ACME - AHS</h1>
+                <p>Welcome to ACME Assignment Help Service. <br> We provide academic assistance to students <br>
+                pursuing higher education.</p>
+                <form action="" class="form">
+                    <input type="email" name="email" id="" placeholder="Your Email..." required>
+                    <button type="submit">Try Now</button>
+                </form>
+            </div>
+            <div class="banner-item">
+                <img src="./images/banner.png" alt="banner_image">
+            </div>
+        </div>
+    </div>
+    <!-- Features starts here -->
+    <div class="features">
+        <h3>DEPARTMENTS FEATURED IN</h3>
+        <div class="feature-container">
+            <p>Computer Sci.</p>
+            <p>Mathematics</p>
+            <p>Medical Sci.</p>
+            <p>Law</p>
+            <p>Accounting</p>
+            <p>Engineering</p>
+            <p>Education</p>
+            <p>Management</p>
+        </div>
+    </div>
+    <!-- choose Us Secion starts here -->
+    <div class="choose">
+        <h5>A HOME FOR YOU</h5>
+        <h3>Why Choose ACME - AHS?</h3>
+        <div class="choose-container">
+            <div class="choose-item">
+                <img src="./images/rating.gif" alt="">
+                <h4>Experienced & Qualified Writers</h4>
+                <p>Our team of experts consists of highly qualified and experienced professionals.</p>
+            </div>
+            <div class="choose-item">
+                <img src="./images/idea.png" alt="">
+                <h4>Customized Solutions</h4>
+                <p>Out team works closely with you to understand your requirements and delivery customized solutions.</p>
+            </div>
+            <div class="choose-item">
+                <img src="./images/hourglass.gif" alt="">
+                <h4>Timely Delivery</h4>
+                <p>We understand that time is of the essence when it comes to academic assignments.</p>
+            </div>
+            <div class="choose-item">
+                <img src="./images/funding.png" alt="">
+                <h4>Affordable Pricing</h4>
+                <p>We offer affordable and flexible plans to suit your budget.</p>
+            </div>
+        </div>
+    </div>
+    <!-- steps section starts here -->
+    <div class="steps">
+        <div class="steps-container">
+            <div class="steps-item">
+                <img src="./images/STEPS.png" alt="steps_image">
+            </div>
+            <div class="steps-item">
+                <h3>Steps to apply for <br> ACME - AHS</h3>
+                <div class="steps-item-container">
+                    <div class="step-item">
+                        <div class="s-item">
+                            <img src="./images/exam.png" alt="step1_img">
+                        </div>
+                        <div class="s-item">
+                            <h6>Step 1</h6>
+                            <p>Fill out the online form with all the necessary details about your assignment.</p>
+                        </div>
+                    </div>
+                    <div class="step-item">
+                        <div class="s-item">
+                            <img src="./images/approve.png" alt="step2_img">
+                        </div>
+                        <div class="s-item">
+                            <h6>Step 2</h6>
+                            <p>We will assign a Writer to work on your assignment. You can communicate with the writer directly.</p>
+                        </div>
+                    </div>
+                    <div class="step-item">
+                        <div class="s-item">
+                            <img src="./images/credit-card.png" alt="step3_img">
+                        </div>
+                        <div class="s-item">
+                            <h6>Step 3</h6>
+                            <p>Once you are satisfied, make payment using the secure payment gateway.</p>
+                        </div>
+                    </div>
+                    <div class="step-item">
+                        <div class="s-item">
+                            <img src="./images/recieved.png" alt="step4_img">
+                        </div>
+                        <div class="s-item">
+                            <h6>Step 4</h6>
+                            <p>Recieve your assignment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blog section starts here -->
+    <div class="blog">
+        <h3>Blog Post</h3>
+        <div class="blog-detail">
+            <p>Our services are your non-stop-shop for all your academic needs.</p>
+            <div class="blog-btn">
+                <img src="./images/left-arrows.png" alt="button-left" class="button-left" id="button-left">
+                <img src="./images/right-arrows.png" alt="button-right" class="button-right" id="button-right">
+            </div>
+        </div>
+        <div class="blog-container" id="blog-container">
+            <div class="owl-carousel owl-theme">
+                <div class="blog-item">
+                    <img src="./images/blog-image.jpg" alt="blog_image">
+                    <div class="info">
+                        <h6>27, May 2023</h6>
+                        <p>Research on AI</p>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <img src="./images/blog-image.jpg" alt="blog_image">
+                    <div class="info">
+                        <h6>27, May 2023</h6>
+                        <p>Research on AI</p>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <img src="./images/blog-image.jpg" alt="blog_image">
+                    <div class="info">
+                        <h6>27, May 2023</h6>
+                        <p>Research on AI</p>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <img src="./images/blog-image.jpg" alt="blog_image">
+                    <div class="info">
+                        <h6>27, May 2023</h6>
+                        <p>Research on AI</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- priority section starts here -->
+    <div class="priority">
+        <h3>You are Our top Priority</h3>
+        <div class="priority-container">
+            <div class="priority-item">
+                <img src="./images/password.gif" alt="">
+                <h4>Privacy Confidentiality</h4>
+                <p>We value your privacy and confidentiality.</p>
+            </div>
+            <div class="priority-item">
+                <img src="./images/documents.png" alt="">
+                <h4>Plagiarism Free Work</h4>
+                <p>We guanrantee that all our solutions are plagiarism-free.</p>
+            </div>
+            <div class="priority-item">
+                <img src="./images/tech-support.gif" alt="">
+                <h4>24/7 Customer Support</h4>
+                <p>We offer 24/7 customer support through live email and phone.</p>
+            </div>
+        </div>
+    </div>
+    <!-- customers review section starts here -->
+    <div class="customers">
+        <div class="customer-detail">
+            <h3>What do people say <br> About ACME - AHS?</h3>
+            <!-- <div class="customer-btn">
+                <img src="./images/left-arrows.png" alt="button-left" class="button-left" id="button-left-c">
+                <img src="./images/right-arrows.png" alt="button-right" class="button-right" id="button-right-c">
+            </div> -->
+        </div>
+        <div class="customer-container" >
+            <div class="owl-carousel owl-theme">
+                <div class="customer-item">
+                    <q>We love and Support ACME - AHS, I sincerely
+                        thank them for helping me alot throughout my schoools years.
+                    </q>
+                    <h6>Ubana Etom</h6>
+                </div>
+                <div class="customer-item">
+                    <q>We love and Support ACME - AHS, I sincerely
+                        thank them for helping me alot throughout my schoools years.
+                    </q>
+                    <h6>Livinus Friday</h6>
+                </div>
+                <div class="customer-item">
+                    <q>We love and Support ACME - AHS, I sincerely
+                        thank them for helping me alot throughout my schoools years.
+                    </q>
+                    <h6>Covenant</h6>
+                </div>
+                <div class="customer-item">
+                    <q>We love and Support ACME - AHS, I sincerely
+                        thank them for helping me alot throughout my schoools years.
+                    </q>
+                    <h6>Archibong</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features starts here -->
+    <div class="features">
+        <h3>DEPARTMENTS FEATURED IN</h3>
+        <div class="feature-container">
+            <p>Computer Sci.</p>
+            <p>Mathematics</p>
+            <p>Medical Sci.</p>
+            <p>Law</p>
+            <p>Accounting</p>
+            <p>Engineering</p>
+            <p>Education</p>
+            <p>Management</p>
+        </div>
+    </div>
+    <!-- FAQ section starts here -->
+    <div class="faq">
+        <h3>Frquently asked questions (FAQ)</h3>
+        <h5> Here are some frequently asked questions and answers for our <br> Assignment Help Service.</h5>
+        <div class="faq-container">
+            <div class="faq-item" id="faq-item-one">
+                <div class="faq-question">
+                    <p>What kind of assignment help service do you offer?</p>
+                    <img src="./images/down-arrow.png" alt="arrow_btn" id="arrow-one">
+                </div>
+                <p>we offer a wide range of academic assignment help services, including essay writing, 
+                    research paper writing, thesis writing, coursework writing, and much more.</p>
+            </div>
+            <div class="faq-item" id="faq-item-two">
+                <div class="faq-question">
+                    <p>How do you ensure the quality of your work?</p>
+                    <img src="./images/down-arrow.png" alt="arrow_btn" id="arrow-two">
+                </div>
+                <p>Our team consist of highly qualified and experienced professionals who are dedicated to providing top-quality 
+                    academic assistance. We ensure that our solutions are well-researched.</p>
+            </div>
+            <div class="faq-item" id="faq-item-three">
+                <div class="faq-question">
+                    <p>How can I place an order?</p>
+                    <img src="./images/down-arrow.png" alt="arrow_btn" id="arrow-three">
+                </div>
+                <p>You can place an order by signing up and filling out the order form on our website.</p>
+            </div>
+            <div class="faq-item" id="faq-item-four">
+                <div class="faq-question">
+                    <p>Can I communicate with the writer assigned to my order?</p>
+                    <img src="./images/down-arrow.png" alt="arrow_btn" id="arrow-four">
+                </div>
+                <p>Yes, you can communicate with your writer through our messaging system. 
+                    You can provide additional instructions, 
+                    ask for updates, or clarify any doubts or concerns.</p>
+            </div>
+            <div class="faq-item" id="faq-item-five">
+                <div class="faq-question">
+                    <p>How much does your assignment help service cost?</p>
+                    <img src="./images/down-arrow.png" alt="arrow_btn" id="arrow-five">
+                </div>
+                <p>Our pricing depends on the type of assignment, level, deadline, mode of receive. 
+                    We offer affordable and flexible pricing plans to suit your budget.</p>
+            </div>
+            <div class="faq-item" id="faq-item-six">
+                <div class="faq-question">
+                    <p>What if I'm not satisfied with the quality of the work?</p>
+                    <img src="./images/down-arrow.png" alt="arrow_btn" id="arrow-six">
+                </div>
+                <p>We always strive to provide top-quality academic assistance, but if you’re not 
+                    satisfied with the work, we offer revisions until you are satisfied..</p>
+            </div>
+        </div>
+    </div>
+    <!-- subscribe section starts here -->
+    <div class="subscribe">
+        <div class="subscribe-container">
+            <p>Give us a try Now!</p>
+            <form action="" class="sub-form">
+                <input type="email" name="email" id="" placeholder="Your Email..." required>
+                <button type="submit">Try Now</button>
+            </form>
+        </div>
+    </div>
+    <!-- footer section starts here -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-item">
+                <img src="./images/logo-b.png" alt="">
+                <p>Your non-stop-shop for all your academic needs.</p>
+                <div class="links">
+                    <!-- <a href="#"><img src="./images/facebook.png" alt="facebook_logo"></a> -->
+                    <a href="#"><img src="./images/twitter.png" alt="twitter_logo"></a>
+                    <a href="#"><img src="./images/instagram.png" alt="instagram_logo"></a>
+                </div>
+            </div>
+            <div class="footer-item">
+                <h4>Pages</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Join</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h4>Info</h4>
+                <ul>
+                    <li><a href="#">Legal Notice</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h4>Get in touch</h4>
+                <a href="mailto:ubanaetom@gmail.com">ubanaetom@gmail.com</a>
+            </div>
+            <div class="footer-item">
+                <h4>News Letter</h4>
+                <p>Sign up for latest news, latests insights and updates.</p>
+                <form action="" class="footer-form">
+                    <input type="email" name="" id="" placeholder="Email here..." required>
+                    <button type="submit"><img src="./images/send.png" alt="send_logo"></button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $(document).ready(function() {
+          var owl = $('.owl-carousel');
+          owl.owlCarousel({
+            items: 4,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    850:{
+                        items: 3
+                    },
+                    1000:{
+                        items: 4
+                    }
+                    }
+          });
+
+        BtnLeft = document.getElementById('button-left');
+        BtnRight = document.getElementById('button-right');
+
+        BtnLeft.addEventListener('click', ()=>{
+            owl.trigger('prev.owl');
+        })
+
+        BtnRight.addEventListener('click', ()=>{
+            owl.trigger('next.owl');
+        })
+        })
+      </script>
+    <script src="./OwlCarousel2-2.3.4/docs/assets/vendors/highlight.js"></script>
+    <script src="./OwlCarousel2-2.3.4/docs/assets/js/app.js"></script>
+</body>
+</html>
